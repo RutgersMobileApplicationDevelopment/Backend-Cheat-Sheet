@@ -11,7 +11,7 @@
  pip -V
  ```
  If there is an error the follow the below steps:
- #### MacOS
+ #### Windows
  Follow this tutorial to download and run the install script
  https://pip.pypa.io/en/stable/installing/#installing-with-get-pip-py
  #### Ubuntu/Ubuntu Subsystem
