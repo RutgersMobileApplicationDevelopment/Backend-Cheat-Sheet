@@ -19,9 +19,17 @@ https://docs.microsoft.com/en-us/windows/wsl/install-win10\
 
 `man` get the manual for any command
 
+## Package Manager
+On Ubuntu your package manager will be the pre-installed `apt-get` command
+
+For macs follow this to install the package manger `brew`:
+https://brew.sh/
+
 # Python
 ## Setting Up Python
 ### Setup pip
+ pip is a package manager for python that allows you to install useful libraries to make your life easier
+ 
  First check if pip is already installed, and if so skip this part of setup. To check if pip is installed run:
  ```Bash
  pip -V
@@ -56,10 +64,21 @@ Flask is the web server framework we will be using to run web servers using pyth
 
 # MongoDB
 Database we will use for persistent storage of data
-## Running Mongo Server
-`mongod`
+## Install MongoDB
+### MacOS
+```Bash
+brew tap mongodb/brew
+brew install mongodb-community
+```
+### Ubuntu 
+If you are using windows sub system this will be added later once issues are resolved
+But you can try this: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+## Running Mongo Server 
+`mongod` Launches a mongoDB server using the default configuration only accessable on your machine
 ## Running Mongo Shell
-`mongo`
+`mongo` Opens a shell to run mongoDB commands on the server you are running with mongod
+## Python MongoDB library
+`pip install pymongo` 
 
 
   
