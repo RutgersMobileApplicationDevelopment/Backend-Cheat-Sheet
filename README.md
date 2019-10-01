@@ -1,7 +1,7 @@
 # Backend-Cheat-Sheet
- 1. Linux Commands
- 2. Python
- 3. Running Mongo
+ 1. [Linux Commands](https://github.com/RutgersMobileApplicationDevelopment/Backend-Cheat-Sheet/blob/master/README.md#linuxunix)
+ 2. [Python](https://github.com/RutgersMobileApplicationDevelopment/Backend-Cheat-Sheet/blob/master/README.md#python)
+ 3. [MongoDB](https://github.com/RutgersMobileApplicationDevelopment/Backend-Cheat-Sheet/blob/master/README.md#mongodb)
  
 # Linux/Unix
 The primary development environments for most backends is linux. MacOS are similar to Linux (both track their origins from Unix). Macs will be able to run many of the commands that linux uses.
@@ -10,8 +10,13 @@ Install the Ubuntu sub system see here:
 https://docs.microsoft.com/en-us/windows/wsl/install-win10\
 ## Basic Commands
 `ls` Lists all files/folders in your current folder
+
 `cd <Folder that exists in your current folder>` "Change Directory" Changes current folder to another folder in your current folder
+
 `nano` Simple commandline based text editor
+
+`python <filename>` runs basic python files, without a filename it will open a python shell where you can run python code directly in terminal
+
 `man` get the manual for any command
 
 # Python
@@ -51,5 +56,10 @@ Flask is the web server framework we will be using to run web servers using pyth
 
 # MongoDB
 Database we will use for persistent storage of data
+## Running Mongo Server
+`mongod`
+## Running Mongo Shell
+`mongo`
+
 
   
