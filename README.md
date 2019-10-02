@@ -45,9 +45,6 @@ https://brew.sh/
  ```
  
 ## VirtualEnv
- ### Installing VirtualEnv
- `pip install virtualenv`
-
  ### Using Virtual Environments
  Virtual Environments are a sub version of your python install. It allows you to install and use packages without worrying about conflics with your root environment.
  #### Creating a new Virtual environment
