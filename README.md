@@ -51,7 +51,7 @@ https://brew.sh/
  ### Using Virtual Environments
  Virtual Environments are a sub version of your python install. It allows you to install and use packages without worrying about conflics with your root environment.
  #### Creating a new Virtual environment
- `virtualenv <Name of environment folder>`
+ `python3 -m venv <Name of environment you want to create>`
  #### Entering a virtual environment
  `source <Name of environment>/bin/activate`
 
